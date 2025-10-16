@@ -1,0 +1,8 @@
+streamlit
+pillow
+numpy
+scikit-learn
+python-dotenv
+langchain-google-genai
+langgraph
+langchain
