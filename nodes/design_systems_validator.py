@@ -1,5 +1,5 @@
 from typing import Dict,List,Optional,TypedDict
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 from llm import get_llm
 from rag.retriever import retrieve,ALL_ENTRIES
 

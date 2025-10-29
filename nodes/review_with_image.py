@@ -1,5 +1,5 @@
 from typing import Dict,List,TypedDict,Optional
-from langchain.schema import HumanMessage
+from langchain_core.messages import HumanMessage
 from llm import get_llm
 from utils.image import ensure_png_bytes,png_bytes_to_data_url
 
