@@ -7,5 +7,4 @@ def get_llm(model: str="gemini-2.0-flash", temperature: float=0.3):
         temperature=temperature,
         google_api_key=st.secrets["GOOGLE_API_KEY"],
         max_retries=10,        
-        timeout=120,          
     )
